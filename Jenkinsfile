@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                echo 'hi pushkal how are you'
                 sh 'node --version'
             }
         }
